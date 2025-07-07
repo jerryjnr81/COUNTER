@@ -1,0 +1,38 @@
+body{
+    background-image: url(1f6570dc573189d4d26c7fe1514e0ce4.jpg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: rgba(122, 122, 121, 0.9);
+    border: 1px solid;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    top: 150px;
+    left: 300px;
+}
+
+.count{
+    font-family: cursive;
+}
+
+#decrease{
+    position: relative;
+    top: 50px;
+    background-color: red;
+}
+#increase{
+    position: relative;
+    top: 50px;
+    background-color: blue;
+}
+#reset{
+    position: relative;
+    top: 70px;
+    background-color: blueviolet;
+}
+
